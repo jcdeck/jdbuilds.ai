@@ -1,0 +1,4120 @@
+{
+  "events": [
+    {
+      "id": "jbv-fnr-20250829",
+      "name": "JB Velodrome \u2014 Season Finale",
+      "date": "2025-08-29",
+      "venue": "Jerry Baker Memorial Velodrome, Redmond WA",
+      "youtube_id": "LfzBd3it8ig",
+      "races": [
+        {
+          "id": "pal-m3",
+          "name": "Point a Lap",
+          "category": "Men 3",
+          "timestamp": 807,
+          "format": "One point per lap, 3-2-1 on Final",
+          "riders": [
+            {
+              "name": "Rijder Carlson",
+              "bib": 316,
+              "team": "JB Juniors",
+              "mentions": 13,
+              "place": 1,
+              "pts": 5
+            },
+            {
+              "name": "Zachary Simon",
+              "bib": 339,
+              "team": "Coalition",
+              "mentions": 16,
+              "place": 2,
+              "pts": 4
+            },
+            {
+              "name": "Oscar Plechl-Moriki",
+              "bib": 315,
+              "team": "Epyc",
+              "mentions": 0,
+              "place": 3,
+              "pts": 3
+            },
+            {
+              "name": "Rue Tomko",
+              "bib": 3,
+              "team": "Jerry Baker Juniors",
+              "mentions": 1,
+              "place": 4,
+              "pts": 2
+            },
+            {
+              "name": "David Takahashi",
+              "bib": 312,
+              "team": "ACT",
+              "mentions": 5,
+              "place": 6,
+              "pts": 1
+            },
+            {
+              "name": "Otis Hatfield",
+              "bib": 332,
+              "team": "Project Echelon Vanguard",
+              "mentions": 4,
+              "place": 5,
+              "pts": 1
+            },
+            {
+              "name": "Michael Westover",
+              "bib": 301,
+              "team": "Taco Time NW",
+              "mentions": 0,
+              "place": 8,
+              "pts": 0
+            },
+            {
+              "name": "Mike Ritter",
+              "bib": 321,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": 0
+            },
+            {
+              "name": "Sam Karpp",
+              "bib": 342,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 7,
+              "pts": 0
+            },
+            {
+              "name": "James Campbell-Harris",
+              "bib": 311,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": -20
+            },
+            {
+              "name": "Jared Ilog",
+              "bib": 340,
+              "team": "Apex Racing",
+              "mentions": 0,
+              "place": 10,
+              "pts": -20
+            },
+            {
+              "name": "Stan Douglas",
+              "bib": 369,
+              "team": "Shogun of Seattle",
+              "mentions": 0,
+              "place": 11,
+              "pts": -20
+            }
+          ]
+        },
+        {
+          "id": "pal-m4",
+          "name": "Point a Lap",
+          "category": "Men 4",
+          "timestamp": 1316,
+          "format": "One point per lap, 3-2-1 on Final",
+          "riders": [
+            {
+              "name": "Edison Clarke-Hoxey",
+              "bib": 439,
+              "team": "East Portland Youth Cycling",
+              "mentions": 13,
+              "place": 1,
+              "pts": 7
+            },
+            {
+              "name": "Kevin Wallin",
+              "bib": 478,
+              "team": "Team Oregon P/B Rodda Paint",
+              "mentions": 5,
+              "place": 2,
+              "pts": 4
+            },
+            {
+              "name": "Rocco Alexander",
+              "bib": 408,
+              "team": "Jerry Baker Juniors",
+              "mentions": 7,
+              "place": 4,
+              "pts": 1
+            },
+            {
+              "name": "Gavin Fairbanks",
+              "bib": 426,
+              "team": "Jerry Baker Juniors",
+              "mentions": 5,
+              "place": 3,
+              "pts": 1
+            },
+            {
+              "name": "Dominic Clark",
+              "bib": 433,
+              "team": "Metalmtn",
+              "mentions": 3,
+              "place": 5,
+              "pts": 1
+            },
+            {
+              "name": "Maxim Smagley",
+              "bib": 421,
+              "team": "JB Juniors",
+              "mentions": 0,
+              "place": 8,
+              "pts": 0
+            },
+            {
+              "name": "Cody Cheng",
+              "bib": 427,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 9,
+              "pts": 0
+            },
+            {
+              "name": "Brendan Lang",
+              "bib": 428,
+              "team": "A Cycling Team",
+              "mentions": 5,
+              "place": 6,
+              "pts": 0
+            },
+            {
+              "name": "Javier Mejia",
+              "bib": 435,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 7,
+              "pts": 0
+            },
+            {
+              "name": "Micheas Herman",
+              "bib": 477,
+              "team": null,
+              "mentions": 0,
+              "place": 10,
+              "pts": 0
+            },
+            {
+              "name": "Raymond Cheng",
+              "bib": 405,
+              "team": null,
+              "mentions": 1,
+              "place": 13,
+              "pts": -20
+            },
+            {
+              "name": "Dan Pham",
+              "bib": 466,
+              "team": null,
+              "mentions": 0,
+              "place": 11,
+              "pts": -20
+            },
+            {
+              "name": "Daniel Pegushin",
+              "bib": 470,
+              "team": null,
+              "mentions": 0,
+              "place": 12,
+              "pts": -20
+            }
+          ]
+        },
+        {
+          "id": "pal-wo",
+          "name": "Point a Lap",
+          "category": "Women Open",
+          "timestamp": 1800,
+          "format": "One point per lap, 3-2-1 on Final",
+          "riders": [
+            {
+              "name": "Ellexi Snover",
+              "bib": 4,
+              "team": null,
+              "mentions": 13,
+              "place": 1,
+              "pts": 10
+            },
+            {
+              "name": "Rue Tomko",
+              "bib": 3,
+              "team": "Jerry Baker Juniors",
+              "mentions": 12,
+              "place": 2,
+              "pts": 5
+            },
+            {
+              "name": "Sarah Lynch",
+              "bib": 15,
+              "team": "Jerry Baker Juniors",
+              "mentions": 3,
+              "place": 3,
+              "pts": 1
+            },
+            {
+              "name": "Charlotte Westover",
+              "bib": 6,
+              "team": "Jerry Baker Juniors",
+              "mentions": 2,
+              "place": 4,
+              "pts": 0
+            },
+            {
+              "name": "Stella Cafiso",
+              "bib": 218,
+              "team": "Valkyr Cycling",
+              "mentions": 0,
+              "place": 5,
+              "pts": 0
+            },
+            {
+              "name": "Laurel Safranek",
+              "bib": 12,
+              "team": null,
+              "mentions": 1,
+              "place": 6,
+              "pts": 0
+            },
+            {
+              "name": "Caitlin Pellerbruch",
+              "bib": 28,
+              "team": "Breakfast Racing Team",
+              "mentions": 1,
+              "place": 7,
+              "pts": 0
+            },
+            {
+              "name": "Hazel Baker",
+              "bib": 201,
+              "team": "Jerry Baker Juniors",
+              "mentions": 2,
+              "place": 9,
+              "pts": -20
+            },
+            {
+              "name": "Amara Edwards",
+              "bib": 13,
+              "team": "Team Mama Bears",
+              "mentions": 1,
+              "place": "DNF",
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "id": "pal-me",
+          "name": "Point a Lap",
+          "category": "Men Elite",
+          "timestamp": 2366,
+          "format": "One point per lap, 3-2-1 on Final",
+          "riders": [
+            {
+              "name": "Harrison Devine",
+              "bib": 128,
+              "team": "Leeding Factory Racing",
+              "mentions": 18,
+              "place": 1,
+              "pts": 7
+            },
+            {
+              "name": "Andrew Martin",
+              "bib": 102,
+              "team": "Tenspeed Hero",
+              "mentions": 3,
+              "place": 2,
+              "pts": 3
+            },
+            {
+              "name": "Josh Sherfey",
+              "bib": 110,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 3,
+              "pts": 2
+            },
+            {
+              "name": "Wyatt Paul",
+              "bib": 103,
+              "team": "Water Line Racing",
+              "mentions": 10,
+              "place": 4,
+              "pts": 2
+            },
+            {
+              "name": "Ludo Max",
+              "bib": 131,
+              "team": "Beat Cycling",
+              "mentions": 0,
+              "place": 5,
+              "pts": 1
+            },
+            {
+              "name": "Eliot Crowther",
+              "bib": 149,
+              "team": null,
+              "mentions": 2,
+              "place": 6,
+              "pts": 1
+            },
+            {
+              "name": "Keegan Fairbanks",
+              "bib": 111,
+              "team": "Jerry Baker Juniors",
+              "mentions": 13,
+              "place": 7,
+              "pts": 1
+            },
+            {
+              "name": "Mike Robson",
+              "bib": 126,
+              "team": "Tenspeed Hero",
+              "mentions": 3,
+              "place": 8,
+              "pts": 1
+            },
+            {
+              "name": "Gavin Newman",
+              "bib": 137,
+              "team": "East Portland Youth Cycling",
+              "mentions": 3,
+              "place": 9,
+              "pts": 1
+            },
+            {
+              "name": "Andrew Lynch",
+              "bib": 154,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 10,
+              "pts": 1
+            },
+            {
+              "name": "Tyson Danilson",
+              "bib": 104,
+              "team": "Water Line Racing",
+              "mentions": 0,
+              "place": 11,
+              "pts": 0
+            },
+            {
+              "name": "Scott Grinsell",
+              "bib": 118,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 12,
+              "pts": 0
+            },
+            {
+              "name": "Carl Hoefer",
+              "bib": 113,
+              "team": "Fount Cycling Guild",
+              "mentions": 0,
+              "place": 13,
+              "pts": 0
+            },
+            {
+              "name": "Conrad Meyer",
+              "bib": 148,
+              "team": "Shogun of Seattle",
+              "mentions": 0,
+              "place": 14,
+              "pts": 0
+            },
+            {
+              "name": "Ben Pflaum",
+              "bib": 107,
+              "team": "Shogun of Seattle",
+              "mentions": 2,
+              "place": 15,
+              "pts": 0
+            },
+            {
+              "name": "Chris Wilson",
+              "bib": 105,
+              "team": "Fount Cycling Guild",
+              "mentions": 4,
+              "place": 16,
+              "pts": 0
+            },
+            {
+              "name": "Daniel Tomko",
+              "bib": 114,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": 17,
+              "pts": -20
+            },
+            {
+              "name": "Ellexi Snover",
+              "bib": 4,
+              "team": null,
+              "mentions": 0,
+              "place": 18,
+              "pts": -20
+            },
+            {
+              "name": "Nolan Adams",
+              "bib": 109,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 19,
+              "pts": -20
+            }
+          ]
+        },
+        {
+          "id": "kitty-kilo",
+          "name": "Kitty Kilo",
+          "category": "Open",
+          "timestamp": 2862,
+          "format": "Beginner/youth race, multiple heats",
+          "riders": []
+        },
+        {
+          "id": "fe-m3",
+          "name": "French Exit",
+          "category": "Men 3",
+          "timestamp": 4082,
+          "format": "5x5, 3x Multiplier",
+          "riders": [
+            {
+              "name": "David Takahashi",
+              "bib": 312,
+              "team": "ACT",
+              "mentions": 15,
+              "place": 1,
+              "pts": 35
+            },
+            {
+              "name": "Mike Ritter",
+              "bib": 321,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": 2,
+              "pts": 15
+            },
+            {
+              "name": "Rijder Carlson",
+              "bib": 316,
+              "team": "JB Juniors",
+              "mentions": 14,
+              "place": 3,
+              "pts": 13
+            },
+            {
+              "name": "Zachary Simon",
+              "bib": 339,
+              "team": "Coalition",
+              "mentions": 14,
+              "place": 4,
+              "pts": 7
+            },
+            {
+              "name": "Sam Karpp",
+              "bib": 342,
+              "team": "Coalition Cycling",
+              "mentions": 5,
+              "place": 5,
+              "pts": 6
+            },
+            {
+              "name": "Oscar Plechl-Moriki",
+              "bib": 315,
+              "team": "Epyc",
+              "mentions": 0,
+              "place": 6,
+              "pts": 4
+            },
+            {
+              "name": "Jared Ilog",
+              "bib": 340,
+              "team": "Apex Racing",
+              "mentions": 0,
+              "place": 8,
+              "pts": 1
+            },
+            {
+              "name": "Otis Hatfield",
+              "bib": 332,
+              "team": "Project Echelon Vanguard",
+              "mentions": 14,
+              "place": 9,
+              "pts": 1
+            },
+            {
+              "name": "Michael Westover",
+              "bib": 301,
+              "team": "Taco Time NW",
+              "mentions": 0,
+              "place": 10,
+              "pts": 0
+            },
+            {
+              "name": "James Campbell-Harris",
+              "bib": 311,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": 11,
+              "pts": 0
+            },
+            {
+              "name": "Stan Douglas",
+              "bib": 369,
+              "team": "Shogun of Seattle",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": 3
+            }
+          ]
+        },
+        {
+          "id": "fe-m4",
+          "name": "French Exit",
+          "category": "Men 4",
+          "timestamp": 5078,
+          "format": "4x5, 2x Multiplier",
+          "riders": [
+            {
+              "name": "Kevin Wallin",
+              "bib": 478,
+              "team": "Team Oregon P/B Rodda Paint",
+              "mentions": 17,
+              "place": 1,
+              "pts": 14
+            },
+            {
+              "name": "Rocco Alexander",
+              "bib": 408,
+              "team": "Jerry Baker Juniors",
+              "mentions": 6,
+              "place": 2,
+              "pts": 10
+            },
+            {
+              "name": "Edison Clarke-Hoxey",
+              "bib": 439,
+              "team": "East Portland Youth Cycling",
+              "mentions": 14,
+              "place": 3,
+              "pts": 9
+            },
+            {
+              "name": "Cody Cheng",
+              "bib": 427,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 4,
+              "pts": 5
+            },
+            {
+              "name": "Javier Mejia",
+              "bib": 435,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 5,
+              "pts": 3
+            },
+            {
+              "name": "Gavin Fairbanks",
+              "bib": 426,
+              "team": "Jerry Baker Juniors",
+              "mentions": 6,
+              "place": 6,
+              "pts": 3
+            },
+            {
+              "name": "Dominic Clark",
+              "bib": 433,
+              "team": "Metalmtn",
+              "mentions": 5,
+              "place": 7,
+              "pts": 3
+            },
+            {
+              "name": "Brendan Lang",
+              "bib": 428,
+              "team": "A Cycling Team",
+              "mentions": 5,
+              "place": 8,
+              "pts": 2
+            },
+            {
+              "name": "Raymond Cheng",
+              "bib": 405,
+              "team": null,
+              "mentions": 1,
+              "place": 9,
+              "pts": 0
+            },
+            {
+              "name": "Maxim Smagley",
+              "bib": 421,
+              "team": "JB Juniors",
+              "mentions": 0,
+              "place": 10,
+              "pts": 0
+            },
+            {
+              "name": "Micheas Herman",
+              "bib": 477,
+              "team": null,
+              "mentions": 0,
+              "place": 11,
+              "pts": 0
+            },
+            {
+              "name": "Daniel Pegushin",
+              "bib": 470,
+              "team": null,
+              "mentions": 0,
+              "place": 12,
+              "pts": 0
+            },
+            {
+              "name": "Dan Pham",
+              "bib": 466,
+              "team": null,
+              "mentions": 0,
+              "place": 13,
+              "pts": -20
+            }
+          ]
+        },
+        {
+          "id": "fe-wo",
+          "name": "French Exit",
+          "category": "Women Open",
+          "timestamp": 5922,
+          "format": "5x5, 3x Multiplier",
+          "riders": [
+            {
+              "name": "Ellexi Snover",
+              "bib": 4,
+              "team": null,
+              "mentions": 20,
+              "place": 1,
+              "pts": 23
+            },
+            {
+              "name": "Rue Tomko",
+              "bib": 3,
+              "team": "Jerry Baker Juniors",
+              "mentions": 17,
+              "place": 2,
+              "pts": 17
+            },
+            {
+              "name": "Caitlin Pellerbruch",
+              "bib": 28,
+              "team": "Breakfast Racing Team",
+              "mentions": 3,
+              "place": 3,
+              "pts": 4
+            },
+            {
+              "name": "Charlotte Westover",
+              "bib": 6,
+              "team": "Jerry Baker Juniors",
+              "mentions": 13,
+              "place": 4,
+              "pts": 4
+            },
+            {
+              "name": "Stella Cafiso",
+              "bib": 218,
+              "team": "Valkyr Cycling",
+              "mentions": 0,
+              "place": 5,
+              "pts": 3
+            },
+            {
+              "name": "Amara Edwards",
+              "bib": 13,
+              "team": "Team Mama Bears",
+              "mentions": 6,
+              "place": 6,
+              "pts": 2
+            },
+            {
+              "name": "Laurel Safranek",
+              "bib": 12,
+              "team": null,
+              "mentions": 1,
+              "place": 7,
+              "pts": 1
+            },
+            {
+              "name": "Sarah Lynch",
+              "bib": 15,
+              "team": "Jerry Baker Juniors",
+              "mentions": 3,
+              "place": 8,
+              "pts": 1
+            },
+            {
+              "name": "Hazel Baker",
+              "bib": 201,
+              "team": "Jerry Baker Juniors",
+              "mentions": 2,
+              "place": "DNF",
+              "pts": -20
+            }
+          ]
+        },
+        {
+          "id": "fe-me",
+          "name": "French Exit",
+          "category": "Men Elite",
+          "timestamp": 7030,
+          "format": "6x5, 4x Multiplier",
+          "riders": [
+            {
+              "name": "Wyatt Paul",
+              "bib": 103,
+              "team": "Water Line Racing",
+              "mentions": 11,
+              "place": 1,
+              "pts": 20
+            },
+            {
+              "name": "Harrison Devine",
+              "bib": 128,
+              "team": "Leeding Factory Racing",
+              "mentions": 21,
+              "place": 2,
+              "pts": 14
+            },
+            {
+              "name": "Keegan Fairbanks",
+              "bib": 111,
+              "team": "Jerry Baker Juniors",
+              "mentions": 15,
+              "place": 3,
+              "pts": 11
+            },
+            {
+              "name": "Mike Robson",
+              "bib": 126,
+              "team": "Tenspeed Hero",
+              "mentions": 15,
+              "place": 4,
+              "pts": 8
+            },
+            {
+              "name": "Andrew Martin",
+              "bib": 102,
+              "team": "Tenspeed Hero",
+              "mentions": 4,
+              "place": 5,
+              "pts": 8
+            },
+            {
+              "name": "Gavin Newman",
+              "bib": 137,
+              "team": "East Portland Youth Cycling",
+              "mentions": 1,
+              "place": 6,
+              "pts": 5
+            },
+            {
+              "name": "Chris Wilson",
+              "bib": 105,
+              "team": "Fount Cycling Guild",
+              "mentions": 7,
+              "place": 7,
+              "pts": 4
+            },
+            {
+              "name": "Nolan Adams",
+              "bib": 109,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 8,
+              "pts": 3
+            },
+            {
+              "name": "Ludo Max",
+              "bib": 131,
+              "team": "Beat Cycling",
+              "mentions": 0,
+              "place": 9,
+              "pts": 2
+            },
+            {
+              "name": "Eliot Crowther",
+              "bib": 149,
+              "team": null,
+              "mentions": 3,
+              "place": 10,
+              "pts": 2
+            },
+            {
+              "name": "Andrew Lynch",
+              "bib": 154,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 11,
+              "pts": 1
+            },
+            {
+              "name": "Tyson Danilson",
+              "bib": 104,
+              "team": "Water Line Racing",
+              "mentions": 0,
+              "place": 12,
+              "pts": 0
+            },
+            {
+              "name": "Josh Sherfey",
+              "bib": 110,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 13,
+              "pts": 0
+            },
+            {
+              "name": "Ellexi Snover",
+              "bib": 4,
+              "team": null,
+              "mentions": 0,
+              "place": 14,
+              "pts": 0
+            },
+            {
+              "name": "Ben Pflaum",
+              "bib": 107,
+              "team": "Shogun of Seattle",
+              "mentions": 2,
+              "place": 15,
+              "pts": 0
+            },
+            {
+              "name": "Daniel Tomko",
+              "bib": 114,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": 16,
+              "pts": 0
+            },
+            {
+              "name": "Scott Grinsell",
+              "bib": 118,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 17,
+              "pts": -17
+            },
+            {
+              "name": "Carl Hoefer",
+              "bib": 113,
+              "team": "Fount Cycling Guild",
+              "mentions": 0,
+              "place": 18,
+              "pts": -20
+            },
+            {
+              "name": "Conrad Meyer",
+              "bib": 148,
+              "team": "Shogun of Seattle",
+              "mentions": 0,
+              "place": 19,
+              "pts": -20
+            }
+          ]
+        },
+        {
+          "id": "scratch-m3",
+          "name": "Scratch Race",
+          "category": "Men 3",
+          "timestamp": 8158,
+          "format": "# Laps",
+          "riders": [
+            {
+              "name": "Rijder Carlson",
+              "bib": 316,
+              "team": "JB Juniors",
+              "mentions": 6,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Mike Ritter",
+              "bib": 321,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Oscar Plechl-Moriki",
+              "bib": 315,
+              "team": "Epyc",
+              "mentions": 0,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Otis Hatfield",
+              "bib": 332,
+              "team": "Project Echelon Vanguard",
+              "mentions": 2,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Zachary Simon",
+              "bib": 339,
+              "team": "Coalition",
+              "mentions": 5,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "David Takahashi",
+              "bib": 312,
+              "team": "ACT",
+              "mentions": 6,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Sam Karpp",
+              "bib": 342,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Jared Ilog",
+              "bib": 340,
+              "team": "Apex Racing",
+              "mentions": 0,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Michael Westover",
+              "bib": 301,
+              "team": "Taco Time NW",
+              "mentions": 0,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Stan Douglas",
+              "bib": 369,
+              "team": "Shogun of Seattle",
+              "mentions": 0,
+              "place": 10,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "scratch-m4",
+          "name": "Scratch Race",
+          "category": "Men 4",
+          "timestamp": 8915,
+          "format": "# Laps",
+          "riders": [
+            {
+              "name": "Kevin Wallin",
+              "bib": 478,
+              "team": "Team Oregon P/B Rodda Paint",
+              "mentions": 8,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Edison Clarke-Hoxey",
+              "bib": 439,
+              "team": "East Portland Youth Cycling",
+              "mentions": 6,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Brendan Lang",
+              "bib": 428,
+              "team": "A Cycling Team",
+              "mentions": 0,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Dominic Clark",
+              "bib": 433,
+              "team": "Metalmtn",
+              "mentions": 1,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Rocco Alexander",
+              "bib": 408,
+              "team": "Jerry Baker Juniors",
+              "mentions": 3,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Javier Mejia",
+              "bib": 435,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Cody Cheng",
+              "bib": 427,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Raymond Cheng",
+              "bib": 405,
+              "team": null,
+              "mentions": 1,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Maxim Smagley",
+              "bib": 421,
+              "team": "JB Juniors",
+              "mentions": 0,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Gavin Fairbanks",
+              "bib": 426,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Micheas Herman",
+              "bib": 477,
+              "team": null,
+              "mentions": 0,
+              "place": 11,
+              "pts": null
+            },
+            {
+              "name": "Dan Pham",
+              "bib": 466,
+              "team": null,
+              "mentions": 0,
+              "place": 12,
+              "pts": null
+            },
+            {
+              "name": "Daniel Pegushin",
+              "bib": 470,
+              "team": null,
+              "mentions": 0,
+              "place": 13,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "scratch-wo",
+          "name": "Scratch Race",
+          "category": "Women Open",
+          "timestamp": 9624,
+          "format": "# Laps",
+          "riders": [
+            {
+              "name": "Ellexi Snover",
+              "bib": 4,
+              "team": null,
+              "mentions": 9,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Rue Tomko",
+              "bib": 3,
+              "team": "Jerry Baker Juniors",
+              "mentions": 10,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Laurel Safranek",
+              "bib": 12,
+              "team": null,
+              "mentions": 1,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Stella Cafiso",
+              "bib": 218,
+              "team": "Valkyr Cycling",
+              "mentions": 0,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Charlotte Westover",
+              "bib": 6,
+              "team": "Jerry Baker Juniors",
+              "mentions": 5,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Caitlin Pellerbruch",
+              "bib": 28,
+              "team": "Breakfast Racing Team",
+              "mentions": 1,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Hazel Baker",
+              "bib": 201,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Sarah Lynch",
+              "bib": 15,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Amara Edwards",
+              "bib": 13,
+              "team": "Team Mama Bears",
+              "mentions": 1,
+              "place": 9,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "scratch-me",
+          "name": "Scratch Race",
+          "category": "Men Elite",
+          "timestamp": 10519,
+          "format": "# Laps",
+          "riders": [
+            {
+              "name": "Andrew Martin",
+              "bib": 102,
+              "team": "Tenspeed Hero",
+              "mentions": 2,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Gavin Newman",
+              "bib": 137,
+              "team": "East Portland Youth Cycling",
+              "mentions": 1,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Chris Wilson",
+              "bib": 105,
+              "team": "Fount Cycling Guild",
+              "mentions": 2,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Josh Sherfey",
+              "bib": 110,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Mike Robson",
+              "bib": 126,
+              "team": "Tenspeed Hero",
+              "mentions": 10,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Harrison Devine",
+              "bib": 128,
+              "team": "Leeding Factory Racing",
+              "mentions": 20,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Tyson Danilson",
+              "bib": 104,
+              "team": "Water Line Racing",
+              "mentions": 0,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Wyatt Paul",
+              "bib": 103,
+              "team": "Water Line Racing",
+              "mentions": 12,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Conrad Meyer",
+              "bib": 148,
+              "team": "Shogun of Seattle",
+              "mentions": 0,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Ludo Max",
+              "bib": 131,
+              "team": "Beat Cycling",
+              "mentions": 0,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Andrew Lynch",
+              "bib": 154,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 11,
+              "pts": null
+            },
+            {
+              "name": "Rijder Carlson",
+              "bib": 316,
+              "team": "JB Juniors",
+              "mentions": 2,
+              "place": 12,
+              "pts": null
+            },
+            {
+              "name": "Keegan Fairbanks",
+              "bib": 111,
+              "team": "Jerry Baker Juniors",
+              "mentions": 5,
+              "place": 13,
+              "pts": null
+            },
+            {
+              "name": "Nolan Adams",
+              "bib": 109,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 14,
+              "pts": null
+            },
+            {
+              "name": "Carl Hoefer",
+              "bib": 113,
+              "team": "Fount Cycling Guild",
+              "mentions": 0,
+              "place": 15,
+              "pts": null
+            },
+            {
+              "name": "Eliot Crowther",
+              "bib": 149,
+              "team": null,
+              "mentions": 0,
+              "place": 16,
+              "pts": null
+            },
+            {
+              "name": "Scott Grinsell",
+              "bib": 118,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 17,
+              "pts": null
+            },
+            {
+              "name": "Ellexi Snover",
+              "bib": 4,
+              "team": null,
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Ben Pflaum",
+              "bib": 107,
+              "team": "Shogun of Seattle",
+              "mentions": 2,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Daniel Tomko",
+              "bib": 114,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": "DNS",
+              "pts": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jbv-fnr-20250808",
+      "name": "JB Velodrome \u2014 FNR",
+      "date": "2025-08-08",
+      "venue": "Jerry Baker Memorial Velodrome, Redmond WA",
+      "youtube_id": "jqBMjHuJAAw",
+      "races": [
+        {
+          "id": "tempo-me",
+          "name": "JB Tempo",
+          "category": "Men Elite",
+          "timestamp": 724,
+          "format": "16 laps, sprints every lap 2-1 points",
+          "riders": [
+            {
+              "name": "Chris Wilson",
+              "bib": 105,
+              "team": "Fount Cycling Guild",
+              "mentions": 15,
+              "place": 1,
+              "pts": 13
+            },
+            {
+              "name": "Eliot Crowther",
+              "bib": 149,
+              "team": null,
+              "mentions": 3,
+              "place": 2,
+              "pts": 12
+            },
+            {
+              "name": "Keegan Fairbanks",
+              "bib": 111,
+              "team": "Jerry Baker Juniors",
+              "mentions": 12,
+              "place": 3,
+              "pts": 6
+            },
+            {
+              "name": "Luca Ostertag-Hill",
+              "bib": 320,
+              "team": "Liquidvelo",
+              "mentions": 10,
+              "place": 4,
+              "pts": 5
+            },
+            {
+              "name": "Quin Kennedy",
+              "bib": 132,
+              "team": "A.C.T.",
+              "mentions": 12,
+              "place": 5,
+              "pts": 4
+            },
+            {
+              "name": "Tyson Danilson",
+              "bib": 104,
+              "team": "Water Line Racing",
+              "mentions": 6,
+              "place": 6,
+              "pts": 4
+            },
+            {
+              "name": "Ludo Max",
+              "bib": 131,
+              "team": "Beat Cycling",
+              "mentions": 3,
+              "place": 7,
+              "pts": 2
+            },
+            {
+              "name": "Jamie Park",
+              "bib": 136,
+              "team": "Dyna Racing Team",
+              "mentions": 6,
+              "place": 8,
+              "pts": 1
+            },
+            {
+              "name": "Zachary Simon",
+              "bib": 339,
+              "team": "Coalition",
+              "mentions": 3,
+              "place": 9,
+              "pts": 1
+            },
+            {
+              "name": "Rijder Carlson",
+              "bib": 316,
+              "team": null,
+              "mentions": 0,
+              "place": 10,
+              "pts": 0
+            },
+            {
+              "name": "Peter Snoblin",
+              "bib": 341,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": 11,
+              "pts": 0
+            },
+            {
+              "name": "Victoria Park",
+              "bib": 2,
+              "team": "Liquid Velo",
+              "mentions": 0,
+              "place": 12,
+              "pts": 0
+            },
+            {
+              "name": "Otis Hatfield",
+              "bib": 332,
+              "team": "Project Echelon Vanguard",
+              "mentions": 0,
+              "place": 13,
+              "pts": 0
+            },
+            {
+              "name": "Isaiah West",
+              "bib": 333,
+              "team": "Liquid Velo",
+              "mentions": 0,
+              "place": 14,
+              "pts": 0
+            },
+            {
+              "name": "Jared Ilog",
+              "bib": 340,
+              "team": "Apex Racing",
+              "mentions": 0,
+              "place": 15,
+              "pts": 0
+            },
+            {
+              "name": "Scott Grinsell",
+              "bib": 118,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 16,
+              "pts": 0
+            },
+            {
+              "name": "Matt Beers",
+              "bib": 335,
+              "team": null,
+              "mentions": 0,
+              "place": 17,
+              "pts": 0
+            },
+            {
+              "name": "Conrad Meyer",
+              "bib": 148,
+              "team": "Shogun of Seattle",
+              "mentions": 3,
+              "place": 18,
+              "pts": 0
+            },
+            {
+              "name": "Michael Westover",
+              "bib": 301,
+              "team": "Taco Time NW",
+              "mentions": 0,
+              "place": 19,
+              "pts": -20
+            },
+            {
+              "name": "Sam Karpp",
+              "bib": 342,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": 0
+            },
+            {
+              "name": "Josh Sherfey",
+              "bib": 110,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": 0
+            },
+            {
+              "name": "Matt Haldeman",
+              "bib": 134,
+              "team": "Single Malt Velo",
+              "mentions": 0,
+              "place": "DNS",
+              "pts": 0
+            },
+            {
+              "name": "Nolan Adams",
+              "bib": 109,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": "DNS",
+              "pts": 0
+            },
+            {
+              "name": "Stan Douglas",
+              "bib": 369,
+              "team": "Shogun of Seattle",
+              "mentions": 0,
+              "place": "DNS",
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "id": "tempo-wo",
+          "name": "JB Tempo",
+          "category": "Women Open",
+          "timestamp": 1310,
+          "format": "12 laps, sprints every lap 2-1 points",
+          "riders": [
+            {
+              "name": "Rue Tomko",
+              "bib": 3,
+              "team": "Jerry Baker Juniors",
+              "mentions": 23,
+              "place": 1,
+              "pts": 19
+            },
+            {
+              "name": "Kelly Dahlin",
+              "bib": 7,
+              "team": "Rice University",
+              "mentions": 22,
+              "place": 2,
+              "pts": 17
+            },
+            {
+              "name": "Niamh Durfee",
+              "bib": 208,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 3,
+              "pts": 0
+            },
+            {
+              "name": "Sarah Lynch",
+              "bib": 15,
+              "team": "Jerry Baker Juniors",
+              "mentions": 6,
+              "place": 4,
+              "pts": 0
+            },
+            {
+              "name": "Laurel Safranek",
+              "bib": 12,
+              "team": null,
+              "mentions": 0,
+              "place": 5,
+              "pts": -20
+            },
+            {
+              "name": "Wrenna Fuller",
+              "bib": 203,
+              "team": "Jerry Baker Juniors",
+              "mentions": 4,
+              "place": 6,
+              "pts": -20
+            },
+            {
+              "name": "Caitlin Pellerbruch",
+              "bib": 28,
+              "team": "Breakfast Racing Team",
+              "mentions": 0,
+              "place": 7,
+              "pts": -20
+            },
+            {
+              "name": "Hazel Baker",
+              "bib": 201,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 8,
+              "pts": -20
+            },
+            {
+              "name": "Jasmine Chuang",
+              "bib": 222,
+              "team": null,
+              "mentions": 0,
+              "place": 9,
+              "pts": -20
+            },
+            {
+              "name": "Maya Reddy",
+              "bib": 210,
+              "team": null,
+              "mentions": 0,
+              "place": 10,
+              "pts": -40
+            }
+          ]
+        },
+        {
+          "id": "tempo-m4",
+          "name": "JB Tempo",
+          "category": "Men 4",
+          "timestamp": 1874,
+          "format": "10 laps, sprints every lap 2-1 points",
+          "riders": [
+            {
+              "name": "Rocco Alexander",
+              "bib": 408,
+              "team": "Jerry Baker Juniors",
+              "mentions": 32,
+              "place": 1,
+              "pts": 11
+            },
+            {
+              "name": "Jack Donahue",
+              "bib": 409,
+              "team": null,
+              "mentions": 13,
+              "place": 2,
+              "pts": 5
+            },
+            {
+              "name": "Brendan Lang",
+              "bib": 428,
+              "team": "A Cycling Team",
+              "mentions": 11,
+              "place": 3,
+              "pts": 5
+            },
+            {
+              "name": "Devon Snethen",
+              "bib": 465,
+              "team": null,
+              "mentions": 0,
+              "place": 4,
+              "pts": 4
+            },
+            {
+              "name": "Cody Cheng",
+              "bib": 427,
+              "team": "Jerry Baker Juniors",
+              "mentions": 5,
+              "place": 5,
+              "pts": 2
+            },
+            {
+              "name": "Dominic Clark",
+              "bib": 433,
+              "team": "Metalmtn",
+              "mentions": 4,
+              "place": 6,
+              "pts": 2
+            },
+            {
+              "name": "Tony Miller",
+              "bib": 422,
+              "team": null,
+              "mentions": 6,
+              "place": 7,
+              "pts": 1
+            },
+            {
+              "name": "Gavin Fairbanks",
+              "bib": 426,
+              "team": "Jerry Baker Juniors",
+              "mentions": 1,
+              "place": 8,
+              "pts": 0
+            },
+            {
+              "name": "Raymond Cheng",
+              "bib": 405,
+              "team": null,
+              "mentions": 0,
+              "place": 9,
+              "pts": 0
+            },
+            {
+              "name": "Jason Fuller",
+              "bib": 401,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 10,
+              "pts": 0
+            },
+            {
+              "name": "Clark Hoffman",
+              "bib": 449,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 11,
+              "pts": 0
+            },
+            {
+              "name": "Liam Hulslander",
+              "bib": 404,
+              "team": null,
+              "mentions": 0,
+              "place": 12,
+              "pts": -20
+            }
+          ]
+        },
+        {
+          "id": "belgian-me",
+          "name": "Belgian Win-n-Out",
+          "category": "Men Elite",
+          "timestamp": 3552,
+          "format": "12 laps",
+          "riders": [
+            {
+              "name": "Chris Wilson",
+              "bib": 105,
+              "team": "Fount Cycling Guild",
+              "mentions": 3,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Rijder Carlson",
+              "bib": 316,
+              "team": null,
+              "mentions": 8,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Josh Sherfey",
+              "bib": 110,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Keegan Fairbanks",
+              "bib": 111,
+              "team": "Jerry Baker Juniors",
+              "mentions": 3,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Eliot Crowther",
+              "bib": 149,
+              "team": null,
+              "mentions": 0,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Tyson Danilson",
+              "bib": 104,
+              "team": "Water Line Racing",
+              "mentions": 3,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Ludo Max",
+              "bib": 131,
+              "team": "Beat Cycling",
+              "mentions": 1,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Victoria Park",
+              "bib": 2,
+              "team": "Liquid Velo",
+              "mentions": 0,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Peter Snoblin",
+              "bib": 341,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Isaiah West",
+              "bib": 333,
+              "team": "Liquid Velo",
+              "mentions": 0,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Otis Hatfield",
+              "bib": 332,
+              "team": "Project Echelon Vanguard",
+              "mentions": 0,
+              "place": 11,
+              "pts": null
+            },
+            {
+              "name": "Conrad Meyer",
+              "bib": 148,
+              "team": "Shogun of Seattle",
+              "mentions": 0,
+              "place": 12,
+              "pts": null
+            },
+            {
+              "name": "Quin Kennedy",
+              "bib": 132,
+              "team": "A.C.T.",
+              "mentions": 9,
+              "place": 13,
+              "pts": null
+            },
+            {
+              "name": "Matt Beers",
+              "bib": 335,
+              "team": null,
+              "mentions": 0,
+              "place": 14,
+              "pts": null
+            },
+            {
+              "name": "Zachary Simon",
+              "bib": 339,
+              "team": "Coalition",
+              "mentions": 0,
+              "place": 15,
+              "pts": null
+            },
+            {
+              "name": "Michael Westover",
+              "bib": 301,
+              "team": "Taco Time NW",
+              "mentions": 0,
+              "place": 16,
+              "pts": null
+            },
+            {
+              "name": "Scott Grinsell",
+              "bib": 118,
+              "team": "Dyna Racing Team",
+              "mentions": 3,
+              "place": 17,
+              "pts": null
+            },
+            {
+              "name": "Luca Ostertag-Hill",
+              "bib": 320,
+              "team": "Liquidvelo",
+              "mentions": 6,
+              "place": 18,
+              "pts": null
+            },
+            {
+              "name": "Sam Karpp",
+              "bib": 342,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 24,
+              "pts": null
+            },
+            {
+              "name": "Jamie Park",
+              "bib": 136,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Stan Douglas",
+              "bib": 369,
+              "team": "Shogun of Seattle",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Jared Ilog",
+              "bib": 340,
+              "team": "Apex Racing",
+              "mentions": 0,
+              "place": "DNP",
+              "pts": null
+            },
+            {
+              "name": "Matt Haldeman",
+              "bib": 134,
+              "team": "Single Malt Velo",
+              "mentions": 0,
+              "place": "DNS",
+              "pts": null
+            },
+            {
+              "name": "Nolan Adams",
+              "bib": 109,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": "DNS",
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "belgian-wo",
+          "name": "Belgian Win-n-Out",
+          "category": "Women Open",
+          "timestamp": 4465,
+          "format": "12 laps",
+          "riders": [
+            {
+              "name": "Rue Tomko",
+              "bib": 3,
+              "team": "Jerry Baker Juniors",
+              "mentions": 7,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Kelly Dahlin",
+              "bib": 7,
+              "team": "Rice University",
+              "mentions": 12,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Sarah Lynch",
+              "bib": 15,
+              "team": "Jerry Baker Juniors",
+              "mentions": 9,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Niamh Durfee",
+              "bib": 208,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Laurel Safranek",
+              "bib": 12,
+              "team": null,
+              "mentions": 15,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Wrenna Fuller",
+              "bib": 203,
+              "team": "Jerry Baker Juniors",
+              "mentions": 3,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Caitlin Pellerbruch",
+              "bib": 28,
+              "team": "Breakfast Racing Team",
+              "mentions": 0,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Jasmine Chuang",
+              "bib": 222,
+              "team": null,
+              "mentions": 0,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Hazel Baker",
+              "bib": 201,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Maya Reddy",
+              "bib": 210,
+              "team": null,
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "belgian-m4",
+          "name": "Belgian Win-n-Out",
+          "category": "Men 4",
+          "timestamp": 5047,
+          "format": "12 laps",
+          "riders": [
+            {
+              "name": "Rocco Alexander",
+              "bib": 408,
+              "team": "Jerry Baker Juniors",
+              "mentions": 10,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Devon Snethen",
+              "bib": 465,
+              "team": null,
+              "mentions": 0,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Dominic Clark",
+              "bib": 433,
+              "team": "Metalmtn",
+              "mentions": 9,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Gavin Fairbanks",
+              "bib": 426,
+              "team": "Jerry Baker Juniors",
+              "mentions": 3,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Tony Miller",
+              "bib": 422,
+              "team": null,
+              "mentions": 4,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Brendan Lang",
+              "bib": 428,
+              "team": "A Cycling Team",
+              "mentions": 3,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Jack Donahue",
+              "bib": 409,
+              "team": null,
+              "mentions": 3,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Raymond Cheng",
+              "bib": 405,
+              "team": null,
+              "mentions": 3,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Jason Fuller",
+              "bib": 401,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Cody Cheng",
+              "bib": 427,
+              "team": "Jerry Baker Juniors",
+              "mentions": 6,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Liam Hulslander",
+              "bib": 404,
+              "team": null,
+              "mentions": 6,
+              "place": 11,
+              "pts": null
+            },
+            {
+              "name": "Clark Hoffman",
+              "bib": 449,
+              "team": "Jerry Baker Juniors",
+              "mentions": 3,
+              "place": 12,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "scratch-me",
+          "name": "Scratch Race",
+          "category": "Men Elite",
+          "timestamp": 5716,
+          "format": "40 laps",
+          "riders": [
+            {
+              "name": "Conrad Meyer",
+              "bib": 148,
+              "team": "Shogun of Seattle",
+              "mentions": 17,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Victoria Park",
+              "bib": 2,
+              "team": "Liquid Velo",
+              "mentions": 0,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Quin Kennedy",
+              "bib": 132,
+              "team": "A.C.T.",
+              "mentions": 34,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Isaiah West",
+              "bib": 333,
+              "team": "Liquid Velo",
+              "mentions": 7,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Scott Grinsell",
+              "bib": 118,
+              "team": "Dyna Racing Team",
+              "mentions": 3,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Chris Wilson",
+              "bib": 105,
+              "team": "Fount Cycling Guild",
+              "mentions": 7,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Luca Ostertag-Hill",
+              "bib": 320,
+              "team": "Liquidvelo",
+              "mentions": 0,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Keegan Fairbanks",
+              "bib": 111,
+              "team": "Jerry Baker Juniors",
+              "mentions": 15,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Eliot Crowther",
+              "bib": 149,
+              "team": null,
+              "mentions": 6,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Peter Snoblin",
+              "bib": 341,
+              "team": "Leeding Factory Racing",
+              "mentions": 6,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Tyson Danilson",
+              "bib": 104,
+              "team": "Water Line Racing",
+              "mentions": 0,
+              "place": 11,
+              "pts": null
+            },
+            {
+              "name": "Ludo Max",
+              "bib": 131,
+              "team": "Beat Cycling",
+              "mentions": 0,
+              "place": 12,
+              "pts": null
+            },
+            {
+              "name": "Rijder Carlson",
+              "bib": 316,
+              "team": null,
+              "mentions": 0,
+              "place": 13,
+              "pts": null
+            },
+            {
+              "name": "Zachary Simon",
+              "bib": 339,
+              "team": "Coalition",
+              "mentions": 0,
+              "place": 14,
+              "pts": null
+            },
+            {
+              "name": "Jamie Park",
+              "bib": 136,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 15,
+              "pts": null
+            },
+            {
+              "name": "Otis Hatfield",
+              "bib": 332,
+              "team": "Project Echelon Vanguard",
+              "mentions": 0,
+              "place": 16,
+              "pts": null
+            },
+            {
+              "name": "Matt Beers",
+              "bib": 335,
+              "team": null,
+              "mentions": 0,
+              "place": 17,
+              "pts": null
+            },
+            {
+              "name": "Michael Westover",
+              "bib": 301,
+              "team": "Taco Time NW",
+              "mentions": 0,
+              "place": 18,
+              "pts": null
+            },
+            {
+              "name": "Sam Karpp",
+              "bib": 342,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 19,
+              "pts": null
+            },
+            {
+              "name": "Josh Sherfey",
+              "bib": 110,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 20,
+              "pts": null
+            },
+            {
+              "name": "Stan Douglas",
+              "bib": 369,
+              "team": "Shogun of Seattle",
+              "mentions": 0,
+              "place": 21,
+              "pts": null
+            },
+            {
+              "name": "Matt Haldeman",
+              "bib": 134,
+              "team": "Single Malt Velo",
+              "mentions": 0,
+              "place": 22,
+              "pts": null
+            },
+            {
+              "name": "Nolan Adams",
+              "bib": 109,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 23,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "scratch-wo",
+          "name": "Scratch Race",
+          "category": "Women Open",
+          "timestamp": 7006,
+          "format": "25 laps",
+          "riders": [
+            {
+              "name": "Rue Tomko",
+              "bib": 3,
+              "team": "Jerry Baker Juniors",
+              "mentions": 42,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Kelly Dahlin",
+              "bib": 7,
+              "team": "Rice University",
+              "mentions": 21,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Niamh Durfee",
+              "bib": 208,
+              "team": "Coalition Cycling",
+              "mentions": 0,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Sarah Lynch",
+              "bib": 15,
+              "team": "Jerry Baker Juniors",
+              "mentions": 8,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Laurel Safranek",
+              "bib": 12,
+              "team": null,
+              "mentions": 3,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Wrenna Fuller",
+              "bib": 203,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Caitlin Pellerbruch",
+              "bib": 28,
+              "team": "Breakfast Racing Team",
+              "mentions": 0,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Hazel Baker",
+              "bib": 201,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Jasmine Chuang",
+              "bib": 222,
+              "team": null,
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Maya Reddy",
+              "bib": 210,
+              "team": null,
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "scratch-m4",
+          "name": "Scratch Race",
+          "category": "Men 4",
+          "timestamp": 8056,
+          "format": "20 laps",
+          "riders": [
+            {
+              "name": "Rocco Alexander",
+              "bib": 408,
+              "team": "Jerry Baker Juniors",
+              "mentions": 21,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Brendan Lang",
+              "bib": 428,
+              "team": "A Cycling Team",
+              "mentions": 3,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Dominic Clark",
+              "bib": 433,
+              "team": "Metalmtn",
+              "mentions": 0,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Jack Donahue",
+              "bib": 409,
+              "team": null,
+              "mentions": 0,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Cody Cheng",
+              "bib": 427,
+              "team": "Jerry Baker Juniors",
+              "mentions": 3,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Raymond Cheng",
+              "bib": 405,
+              "team": null,
+              "mentions": 3,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Gavin Fairbanks",
+              "bib": 426,
+              "team": "Jerry Baker Juniors",
+              "mentions": 6,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Devon Snethen",
+              "bib": 465,
+              "team": null,
+              "mentions": 0,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Tony Miller",
+              "bib": 422,
+              "team": null,
+              "mentions": 0,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Liam Hulslander",
+              "bib": 404,
+              "team": null,
+              "mentions": 3,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Jason Fuller",
+              "bib": 401,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 11,
+              "pts": null
+            },
+            {
+              "name": "Clark Hoffman",
+              "bib": 449,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 12,
+              "pts": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jbv-fnr-20250711",
+      "name": "JB Velodrome \u2014 Derby Days",
+      "date": "2025-07-11",
+      "venue": "Jerry Baker Memorial Velodrome, Redmond WA",
+      "youtube_id": "jzQgFa7q3uM",
+      "races": [
+        {
+          "id": "sprint-qualifying",
+          "name": "Sprint Invitational \u2014 200m Qualifying",
+          "category": "Open",
+          "timestamp": 33,
+          "format": "Flying 200m \u2014 top 8 advance to bracket (QF \u2192 SF \u2192 Finals)",
+          "riders": [
+            {
+              "name": "Summer Newlands",
+              "bib": 117,
+              "team": "Team",
+              "mentions": 3,
+              "place": 1,
+              "pts": null,
+              "timestamp": 629,
+              "time200m": "11.192"
+            },
+            {
+              "name": "Gabriel Takagi",
+              "bib": 324,
+              "team": "Jb Juniors",
+              "mentions": 3,
+              "place": 2,
+              "pts": null,
+              "timestamp": 717,
+              "time200m": "11.297"
+            },
+            {
+              "name": "Stephen McLaughry",
+              "bib": 138,
+              "team": "Bike Central/Barburvet",
+              "mentions": 5,
+              "place": 3,
+              "pts": null,
+              "timestamp": 545,
+              "time200m": "11.369"
+            },
+            {
+              "name": "Jc Pile",
+              "bib": 169,
+              "team": "Jerry Baker Juniors",
+              "mentions": 4,
+              "place": 4,
+              "pts": null,
+              "timestamp": 361,
+              "time200m": "11.672"
+            },
+            {
+              "name": "James Campbell-Harris",
+              "bib": 311,
+              "team": "Leeding Factory Racing",
+              "mentions": 3,
+              "place": 5,
+              "pts": null,
+              "timestamp": 215,
+              "time200m": "11.710"
+            },
+            {
+              "name": "Daniel Tomko",
+              "bib": 114,
+              "team": "Leeding Factory Racing",
+              "mentions": 5,
+              "place": 6,
+              "pts": null,
+              "timestamp": 297,
+              "time200m": "11.807"
+            },
+            {
+              "name": "Ben Pflaum",
+              "bib": 107,
+              "team": "Shogun Of Seattle",
+              "mentions": 4,
+              "place": 7,
+              "pts": null,
+              "timestamp": 150,
+              "time200m": "11.977"
+            },
+            {
+              "name": "Tim Luther",
+              "bib": 139,
+              "team": null,
+              "mentions": 28,
+              "place": 8,
+              "pts": null,
+              "timestamp": 454,
+              "time200m": "12.264"
+            }
+          ]
+        },
+        {
+          "id": "scratch-me",
+          "name": "Scratch Race",
+          "category": "Men Elite",
+          "timestamp": 840,
+          "format": "10 laps, 1 prime",
+          "riders": [
+            {
+              "name": "Zachary Kovalcik",
+              "bib": 146,
+              "team": "Poa Racing",
+              "mentions": 0,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Andy Baker",
+              "bib": 108,
+              "team": "Liquid Velo",
+              "mentions": 9,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Merrick Gallagher",
+              "bib": 101,
+              "team": "Jerry Baker Juniors",
+              "mentions": 4,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Scott Grinsell",
+              "bib": 118,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Mike Robson",
+              "bib": 126,
+              "team": "Tenspeed Hero",
+              "mentions": 1,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Gavin Newman",
+              "bib": 137,
+              "team": "East Portland Youth Cycling (Epyc)",
+              "mentions": 1,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Harrison Devine",
+              "bib": 128,
+              "team": "Leeding Factory Racing",
+              "mentions": 2,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Quin Kennedy",
+              "bib": 132,
+              "team": "A.C.T.",
+              "mentions": 0,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Tyson Danilson",
+              "bib": 104,
+              "team": "Water Line Racing",
+              "mentions": 0,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Andrew Lynch",
+              "bib": 154,
+              "team": "Coalition Cycling",
+              "mentions": 6,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Dave Chipchase",
+              "bib": 119,
+              "team": "Liquid Velo",
+              "mentions": 0,
+              "place": 11,
+              "pts": null
+            },
+            {
+              "name": "Kenny Williams",
+              "bib": 142,
+              "team": "Center Cycles",
+              "mentions": 0,
+              "place": 12,
+              "pts": null
+            },
+            {
+              "name": "Mike Dahlin",
+              "bib": 135,
+              "team": "Center Cycles",
+              "mentions": 0,
+              "place": 13,
+              "pts": null
+            },
+            {
+              "name": "Keegan Fairbanks",
+              "bib": 111,
+              "team": "Jerry Baker Juniors",
+              "mentions": 7,
+              "place": 14,
+              "pts": null
+            },
+            {
+              "name": "Serg Melikyan",
+              "bib": 199,
+              "team": "Shogun Of Seattle",
+              "mentions": 0,
+              "place": 15,
+              "pts": null
+            },
+            {
+              "name": "Matti Herz",
+              "bib": 121,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": 16,
+              "pts": null
+            },
+            {
+              "name": "Alex Siegel",
+              "bib": 123,
+              "team": "Water Line Racing",
+              "mentions": 0,
+              "place": 17,
+              "pts": null
+            },
+            {
+              "name": "Nolan Adams",
+              "bib": 109,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 18,
+              "pts": null
+            },
+            {
+              "name": "Carl Hoefer",
+              "bib": 113,
+              "team": "Fount Cycling Guild",
+              "mentions": 0,
+              "place": 19,
+              "pts": null
+            },
+            {
+              "name": "Andrew Martin",
+              "bib": 102,
+              "team": "Tenspeed Hero",
+              "mentions": 3,
+              "place": 20,
+              "pts": null
+            },
+            {
+              "name": "Matt Haldeman",
+              "bib": 134,
+              "team": "Single Malt Velo",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Summer Newlands",
+              "bib": 117,
+              "team": "Team",
+              "mentions": 0,
+              "place": "DNS",
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "scratch-we",
+          "name": "Scratch Race",
+          "category": "Women Open",
+          "timestamp": 1415,
+          "format": "10 laps",
+          "riders": [
+            {
+              "name": "Rue Tomko",
+              "bib": 3,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Jenna Lingwood",
+              "bib": 8,
+              "team": "Team S&M",
+              "mentions": 8,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Kelly Dahlin",
+              "bib": 7,
+              "team": "Rice University",
+              "mentions": 1,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Hilary Luther",
+              "bib": 14,
+              "team": "Valkyr Cycling",
+              "mentions": 6,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Sarah Lynch",
+              "bib": 15,
+              "team": "Jerry Baker Juniors",
+              "mentions": 5,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Charlotte Westover",
+              "bib": 6,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Wrenna Fuller",
+              "bib": 203,
+              "team": "Jerry Baker Juniors",
+              "mentions": 1,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Jasmine Chuang",
+              "bib": 222,
+              "team": null,
+              "mentions": 0,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Julia Barna",
+              "bib": 211,
+              "team": "Valkyr Cycling",
+              "mentions": 0,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Tegan Morgan",
+              "bib": 23,
+              "team": "Alkek Juniors Ghcf P/B Shottenkirk Kia",
+              "mentions": 1,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Amara Edwards",
+              "bib": 13,
+              "team": "Team Mama Bears",
+              "mentions": 0,
+              "place": 11,
+              "pts": null
+            },
+            {
+              "name": "Gabriella StClair",
+              "bib": 17,
+              "team": "Star Track",
+              "mentions": 0,
+              "place": 12,
+              "pts": null
+            },
+            {
+              "name": "Christina Polwarth",
+              "bib": 215,
+              "team": "Recycled Cycles",
+              "mentions": 0,
+              "place": 13,
+              "pts": null
+            },
+            {
+              "name": "Hazel Baker",
+              "bib": 201,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 14,
+              "pts": null
+            },
+            {
+              "name": "Alynda Lingwood",
+              "bib": 24,
+              "team": "Team Mama Bears",
+              "mentions": 0,
+              "place": 15,
+              "pts": null
+            },
+            {
+              "name": "Maya Reddy",
+              "bib": 210,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 16,
+              "pts": null
+            },
+            {
+              "name": "Luna Mendoza",
+              "bib": 204,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "scratch-m3",
+          "name": "Scratch Race",
+          "category": "Men 3",
+          "timestamp": 1870,
+          "format": "10 laps",
+          "riders": [
+            {
+              "name": "Jack Hampson",
+              "bib": 319,
+              "team": "East Portland Youth Cycling (Epyc)",
+              "mentions": 2,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Conrad Meyer",
+              "bib": 305,
+              "team": "Shogun Of Seattle",
+              "mentions": 3,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Mike Ritter",
+              "bib": 321,
+              "team": "Leeding Factory Racing",
+              "mentions": 2,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Rijder Carlson",
+              "bib": 316,
+              "team": null,
+              "mentions": 2,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "William Huang",
+              "bib": 308,
+              "team": "Jerry Baker Juniors",
+              "mentions": 2,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Otis Hatfield",
+              "bib": 332,
+              "team": "Project Echelon Vanguard",
+              "mentions": 0,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Peter Snoblin",
+              "bib": 341,
+              "team": "Leeding Factory Racing",
+              "mentions": 1,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Michael Westover",
+              "bib": 301,
+              "team": "Taco Time NW",
+              "mentions": 1,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Oscar Plechl-Moriki",
+              "bib": 315,
+              "team": "Epyc",
+              "mentions": 0,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Matthew Kvamme",
+              "bib": 334,
+              "team": null,
+              "mentions": 0,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Matt Beers",
+              "bib": 335,
+              "team": null,
+              "mentions": 0,
+              "place": 11,
+              "pts": null
+            },
+            {
+              "name": "Francisco Zapata",
+              "bib": 336,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 12,
+              "pts": null
+            },
+            {
+              "name": "Stan Douglas",
+              "bib": 369,
+              "team": "Shogun Of Seattle",
+              "mentions": 5,
+              "place": 13,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "crawl",
+          "name": "Marymoor Crawl",
+          "category": "Open",
+          "timestamp": 3888,
+          "format": "1 lap \u2014 slowest rider wins",
+          "riders": [
+            {
+              "name": "Zachary Kovalcik",
+              "bib": 146,
+              "team": "Poa Racing",
+              "mentions": 0,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Keegan Fairbanks",
+              "bib": 111,
+              "team": "Jerry Baker Juniors",
+              "mentions": 4,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Quin Kennedy",
+              "bib": 132,
+              "team": "A.C.T.",
+              "mentions": 1,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Gavin Newman",
+              "bib": 137,
+              "team": "East Portland Youth Cycling (Epyc)",
+              "mentions": 5,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Harrison Devine",
+              "bib": 128,
+              "team": "Leeding Factory Racing",
+              "mentions": 2,
+              "place": 5,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "super-sprint-me",
+          "name": "Super Sprint",
+          "category": "Men Elite",
+          "timestamp": 4666,
+          "format": "Riders pulled every lap until 8 remain, then 5-lap scratch",
+          "riders": [
+            {
+              "name": "Merrick Gallagher",
+              "bib": 101,
+              "team": "Jerry Baker Juniors",
+              "mentions": 6,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Harrison Devine",
+              "bib": 128,
+              "team": "Leeding Factory Racing",
+              "mentions": 4,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Andrew Lynch",
+              "bib": 154,
+              "team": "Coalition Cycling",
+              "mentions": 4,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Gavin Newman",
+              "bib": 137,
+              "team": "East Portland Youth Cycling (Epyc)",
+              "mentions": 4,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Andrew Martin",
+              "bib": 102,
+              "team": "Tenspeed Hero",
+              "mentions": 2,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Keegan Fairbanks",
+              "bib": 111,
+              "team": "Jerry Baker Juniors",
+              "mentions": 1,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Matti Herz",
+              "bib": 121,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Carl Hoefer",
+              "bib": 113,
+              "team": "Fount Cycling Guild",
+              "mentions": 0,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Tyson Danilson",
+              "bib": 104,
+              "team": "Water Line Racing",
+              "mentions": 0,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Andy Baker",
+              "bib": 108,
+              "team": "Liquid Velo",
+              "mentions": 4,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Quin Kennedy",
+              "bib": 132,
+              "team": "A.C.T.",
+              "mentions": 2,
+              "place": 11,
+              "pts": null
+            },
+            {
+              "name": "Alex Siegel",
+              "bib": 123,
+              "team": "Water Line Racing",
+              "mentions": 2,
+              "place": 12,
+              "pts": null
+            },
+            {
+              "name": "Kenny Williams",
+              "bib": 142,
+              "team": "Center Cycles",
+              "mentions": 4,
+              "place": 13,
+              "pts": null
+            },
+            {
+              "name": "Matt Haldeman",
+              "bib": 134,
+              "team": "Single Malt Velo",
+              "mentions": 0,
+              "place": 14,
+              "pts": null
+            },
+            {
+              "name": "Zachary Kovalcik",
+              "bib": 146,
+              "team": "Poa Racing",
+              "mentions": 0,
+              "place": 15,
+              "pts": null
+            },
+            {
+              "name": "Dave Chipchase",
+              "bib": 119,
+              "team": "Liquid Velo",
+              "mentions": 0,
+              "place": 16,
+              "pts": null
+            },
+            {
+              "name": "Mike Dahlin",
+              "bib": 135,
+              "team": "Center Cycles",
+              "mentions": 0,
+              "place": 17,
+              "pts": null
+            },
+            {
+              "name": "Scott Grinsell",
+              "bib": 118,
+              "team": "Dyna Racing Team",
+              "mentions": 1,
+              "place": 18,
+              "pts": null
+            },
+            {
+              "name": "Nolan Adams",
+              "bib": 109,
+              "team": "Dyna Racing Team",
+              "mentions": 2,
+              "place": 19,
+              "pts": null
+            },
+            {
+              "name": "Serg Melikyan",
+              "bib": 199,
+              "team": "Shogun Of Seattle",
+              "mentions": 1,
+              "place": 20,
+              "pts": null
+            },
+            {
+              "name": "Mike Robson",
+              "bib": 126,
+              "team": "Tenspeed Hero",
+              "mentions": 2,
+              "place": 21,
+              "pts": null
+            },
+            {
+              "name": "Summer Newlands",
+              "bib": 117,
+              "team": "Team",
+              "mentions": 0,
+              "place": "DNS",
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "super-sprint-we",
+          "name": "Super Sprint",
+          "category": "Women Open",
+          "timestamp": 5411,
+          "format": "Riders pulled every lap until 8 remain, then 5-lap scratch",
+          "riders": [
+            {
+              "name": "Rue Tomko",
+              "bib": 3,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Jenna Lingwood",
+              "bib": 8,
+              "team": "Team S&M",
+              "mentions": 12,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Kelly Dahlin",
+              "bib": 7,
+              "team": "Rice University",
+              "mentions": 2,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Hilary Luther",
+              "bib": 14,
+              "team": "Valkyr Cycling",
+              "mentions": 3,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Sarah Lynch",
+              "bib": 15,
+              "team": "Jerry Baker Juniors",
+              "mentions": 2,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Charlotte Westover",
+              "bib": 6,
+              "team": "Jerry Baker Juniors",
+              "mentions": 2,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Gabriella StClair",
+              "bib": 17,
+              "team": "Star Track",
+              "mentions": 0,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Wrenna Fuller",
+              "bib": 203,
+              "team": "Jerry Baker Juniors",
+              "mentions": 3,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Julia Barna",
+              "bib": 211,
+              "team": "Valkyr Cycling",
+              "mentions": 1,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Alynda Lingwood",
+              "bib": 24,
+              "team": "Team Mama Bears",
+              "mentions": 0,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Amara Edwards",
+              "bib": 13,
+              "team": "Team Mama Bears",
+              "mentions": 4,
+              "place": 11,
+              "pts": null
+            },
+            {
+              "name": "Christina Polwarth",
+              "bib": 215,
+              "team": "Recycled Cycles",
+              "mentions": 0,
+              "place": 12,
+              "pts": null
+            },
+            {
+              "name": "Luna Mendoza",
+              "bib": 204,
+              "team": "Jerry Baker Juniors",
+              "mentions": 5,
+              "place": 13,
+              "pts": null
+            },
+            {
+              "name": "Tegan Morgan",
+              "bib": 23,
+              "team": "Alkek Juniors Ghcf P/B Shottenkirk Kia",
+              "mentions": 0,
+              "place": 14,
+              "pts": null
+            },
+            {
+              "name": "Jasmine Chuang",
+              "bib": 222,
+              "team": null,
+              "mentions": 3,
+              "place": 15,
+              "pts": null
+            },
+            {
+              "name": "Hazel Baker",
+              "bib": 201,
+              "team": "Jerry Baker Juniors",
+              "mentions": 3,
+              "place": 16,
+              "pts": null
+            },
+            {
+              "name": "Maya Reddy",
+              "bib": 210,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 17,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "super-sprint-m3",
+          "name": "Super Sprint",
+          "category": "Men 3",
+          "timestamp": 6107,
+          "format": "Riders pulled every lap until 8 remain, then 5-lap scratch",
+          "riders": [
+            {
+              "name": "Jack Hampson",
+              "bib": 319,
+              "team": "East Portland Youth Cycling (Epyc)",
+              "mentions": 1,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Oscar Plechl-Moriki",
+              "bib": 315,
+              "team": "Epyc",
+              "mentions": 4,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Rijder Carlson",
+              "bib": 316,
+              "team": null,
+              "mentions": 4,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Conrad Meyer",
+              "bib": 305,
+              "team": "Shogun Of Seattle",
+              "mentions": 4,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Peter Snoblin",
+              "bib": 341,
+              "team": "Leeding Factory Racing",
+              "mentions": 1,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "William Huang",
+              "bib": 308,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Matt Beers",
+              "bib": 335,
+              "team": null,
+              "mentions": 0,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Otis Hatfield",
+              "bib": 332,
+              "team": "Project Echelon Vanguard",
+              "mentions": 0,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Mike Ritter",
+              "bib": 321,
+              "team": "Leeding Factory Racing",
+              "mentions": 5,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Matthew Kvamme",
+              "bib": 334,
+              "team": null,
+              "mentions": 1,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Stan Douglas",
+              "bib": 369,
+              "team": "Shogun Of Seattle",
+              "mentions": 0,
+              "place": 11,
+              "pts": null
+            },
+            {
+              "name": "Michael Westover",
+              "bib": 301,
+              "team": "Taco Time NW",
+              "mentions": 3,
+              "place": 12,
+              "pts": null
+            },
+            {
+              "name": "Francisco Zapata",
+              "bib": 336,
+              "team": "Dyna Racing Team",
+              "mentions": 2,
+              "place": 13,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "sprint-finals",
+          "name": "Sprint Invitational \u2014 Finals",
+          "category": "Open",
+          "timestamp": 6757,
+          "format": "Bracket finals: 1st-2nd final, 3rd-4th final, 5th-8th final",
+          "riders": [
+            {
+              "name": "Summer Newlands",
+              "bib": 117,
+              "team": "Team",
+              "mentions": 1,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Gabriel Takagi",
+              "bib": 324,
+              "team": "Jb Juniors",
+              "mentions": 6,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Stephen McLaughry",
+              "bib": 138,
+              "team": "Bike Central/Barburvet",
+              "mentions": 2,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Jc Pile",
+              "bib": 169,
+              "team": "Jerry Baker Juniors",
+              "mentions": 1,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Tim Luther",
+              "bib": 139,
+              "team": null,
+              "mentions": 5,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Daniel Tomko",
+              "bib": 114,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "James Campbell-Harris",
+              "bib": 311,
+              "team": "Leeding Factory Racing",
+              "mentions": 1,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Ben Pflaum",
+              "bib": 107,
+              "team": "Shogun Of Seattle",
+              "mentions": 0,
+              "place": 8,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "unknown-me",
+          "name": "Unknown Distance",
+          "category": "Men Elite",
+          "timestamp": 7031,
+          "format": "30 laps",
+          "riders": [
+            {
+              "name": "Merrick Gallagher",
+              "bib": 101,
+              "team": "Jerry Baker Juniors",
+              "mentions": 13,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Zachary Kovalcik",
+              "bib": 146,
+              "team": "Poa Racing",
+              "mentions": 0,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Andy Baker",
+              "bib": 108,
+              "team": "Liquid Velo",
+              "mentions": 4,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Gavin Newman",
+              "bib": 137,
+              "team": "East Portland Youth Cycling (Epyc)",
+              "mentions": 6,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Kenny Williams",
+              "bib": 142,
+              "team": "Center Cycles",
+              "mentions": 1,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Harrison Devine",
+              "bib": 128,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Nolan Adams",
+              "bib": 109,
+              "team": "Dyna Racing Team",
+              "mentions": 2,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Quin Kennedy",
+              "bib": 132,
+              "team": "A.C.T.",
+              "mentions": 4,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Serg Melikyan",
+              "bib": 199,
+              "team": "Shogun Of Seattle",
+              "mentions": 0,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Andrew Lynch",
+              "bib": 154,
+              "team": "Coalition Cycling",
+              "mentions": 1,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Scott Grinsell",
+              "bib": 118,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 11,
+              "pts": null
+            },
+            {
+              "name": "Keegan Fairbanks",
+              "bib": 111,
+              "team": "Jerry Baker Juniors",
+              "mentions": 1,
+              "place": 12,
+              "pts": null
+            },
+            {
+              "name": "Carl Hoefer",
+              "bib": 113,
+              "team": "Fount Cycling Guild",
+              "mentions": 0,
+              "place": 13,
+              "pts": null
+            },
+            {
+              "name": "Tyson Danilson",
+              "bib": 104,
+              "team": "Water Line Racing",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Dave Chipchase",
+              "bib": 119,
+              "team": "Liquid Velo",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Matti Herz",
+              "bib": 121,
+              "team": "Leeding Factory Racing",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Alex Siegel",
+              "bib": 123,
+              "team": "Water Line Racing",
+              "mentions": 3,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Matt Haldeman",
+              "bib": 134,
+              "team": "Single Malt Velo",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Mike Dahlin",
+              "bib": 135,
+              "team": "Center Cycles",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Andrew Martin",
+              "bib": 102,
+              "team": "Tenspeed Hero",
+              "mentions": 0,
+              "place": "DNS",
+              "pts": null
+            },
+            {
+              "name": "Summer Newlands",
+              "bib": 117,
+              "team": "Team",
+              "mentions": 0,
+              "place": "DNS",
+              "pts": null
+            },
+            {
+              "name": "Mike Robson",
+              "bib": 126,
+              "team": "Tenspeed Hero",
+              "mentions": 0,
+              "place": "DNS",
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "unknown-we",
+          "name": "Unknown Distance",
+          "category": "Women Open",
+          "timestamp": 8026,
+          "format": "21 laps",
+          "riders": [
+            {
+              "name": "Jenna Lingwood",
+              "bib": 8,
+              "team": "Team S&M",
+              "mentions": 14,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Kelly Dahlin",
+              "bib": 7,
+              "team": "Rice University",
+              "mentions": 0,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Rue Tomko",
+              "bib": 3,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Hilary Luther",
+              "bib": 14,
+              "team": "Valkyr Cycling",
+              "mentions": 6,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "Tegan Morgan",
+              "bib": 23,
+              "team": "Alkek Juniors Ghcf P/B Shottenkirk Kia",
+              "mentions": 2,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Charlotte Westover",
+              "bib": 6,
+              "team": "Jerry Baker Juniors",
+              "mentions": 2,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Julia Barna",
+              "bib": 211,
+              "team": "Valkyr Cycling",
+              "mentions": 1,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Wrenna Fuller",
+              "bib": 203,
+              "team": "Jerry Baker Juniors",
+              "mentions": 1,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Jasmine Chuang",
+              "bib": 222,
+              "team": null,
+              "mentions": 0,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Amara Edwards",
+              "bib": 13,
+              "team": "Team Mama Bears",
+              "mentions": 2,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Hazel Baker",
+              "bib": 201,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 11,
+              "pts": null
+            },
+            {
+              "name": "Christina Polwarth",
+              "bib": 215,
+              "team": "Recycled Cycles",
+              "mentions": 0,
+              "place": 12,
+              "pts": null
+            },
+            {
+              "name": "Sarah Lynch",
+              "bib": 15,
+              "team": "Jerry Baker Juniors",
+              "mentions": 2,
+              "place": 13,
+              "pts": null
+            },
+            {
+              "name": "Gabriella StClair",
+              "bib": 17,
+              "team": "Star Track",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Luna Mendoza",
+              "bib": 204,
+              "team": "Jerry Baker Juniors",
+              "mentions": 1,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Maya Reddy",
+              "bib": 210,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Alynda Lingwood",
+              "bib": 24,
+              "team": "Team Mama Bears",
+              "mentions": 0,
+              "place": "DNS",
+              "pts": null
+            }
+          ]
+        },
+        {
+          "id": "unknown-m3",
+          "name": "Unknown Distance",
+          "category": "Men 3",
+          "timestamp": 8820,
+          "format": "25 laps",
+          "riders": [
+            {
+              "name": "Rijder Carlson",
+              "bib": 316,
+              "team": null,
+              "mentions": 4,
+              "place": 1,
+              "pts": null
+            },
+            {
+              "name": "Jack Hampson",
+              "bib": 319,
+              "team": "East Portland Youth Cycling (Epyc)",
+              "mentions": 1,
+              "place": 2,
+              "pts": null
+            },
+            {
+              "name": "Conrad Meyer",
+              "bib": 305,
+              "team": "Shogun Of Seattle",
+              "mentions": 5,
+              "place": 3,
+              "pts": null
+            },
+            {
+              "name": "Otis Hatfield",
+              "bib": 332,
+              "team": "Project Echelon Vanguard",
+              "mentions": 1,
+              "place": 4,
+              "pts": null
+            },
+            {
+              "name": "William Huang",
+              "bib": 308,
+              "team": "Jerry Baker Juniors",
+              "mentions": 0,
+              "place": 5,
+              "pts": null
+            },
+            {
+              "name": "Peter Snoblin",
+              "bib": 341,
+              "team": "Leeding Factory Racing",
+              "mentions": 3,
+              "place": 6,
+              "pts": null
+            },
+            {
+              "name": "Oscar Plechl-Moriki",
+              "bib": 315,
+              "team": "Epyc",
+              "mentions": 1,
+              "place": 7,
+              "pts": null
+            },
+            {
+              "name": "Matt Beers",
+              "bib": 335,
+              "team": null,
+              "mentions": 1,
+              "place": 8,
+              "pts": null
+            },
+            {
+              "name": "Francisco Zapata",
+              "bib": 336,
+              "team": "Dyna Racing Team",
+              "mentions": 0,
+              "place": 9,
+              "pts": null
+            },
+            {
+              "name": "Michael Westover",
+              "bib": 301,
+              "team": "Taco Time NW",
+              "mentions": 3,
+              "place": 10,
+              "pts": null
+            },
+            {
+              "name": "Mike Ritter",
+              "bib": 321,
+              "team": "Leeding Factory Racing",
+              "mentions": 6,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Matthew Kvamme",
+              "bib": 334,
+              "team": null,
+              "mentions": 4,
+              "place": "DNF",
+              "pts": null
+            },
+            {
+              "name": "Stan Douglas",
+              "bib": 369,
+              "team": "Shogun Of Seattle",
+              "mentions": 7,
+              "place": "DNF",
+              "pts": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
