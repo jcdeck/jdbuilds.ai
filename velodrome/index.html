@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JB Velodrome</title>
+<style>
+:root {
+  --bg: #0f1117;
+  --surface: #1a1d27;
+  --surface2: #242836;
+  --border: #2d3348;
+  --text: #e4e6ef;
+  --text-dim: #8b8fa3;
+  --accent: #f59e0b;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+.header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #f59e0b, #ef4444);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header .meta { font-size: 12px; color: var(--text-dim); margin-top: 4px; }
+.back-btn {
+  font-size: 13px;
+  color: var(--text-dim);
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+.back-btn:hover { color: var(--text); border-color: var(--accent); }
+
+.tabs {
+  display: flex;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+}
+.tab {
+  padding: 12px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-dim);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+.content { padding: 24px; max-width: 1100px; margin: 0 auto; }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* Event index cards */
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 8px;
+}
+.event-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.15s;
+  display: block;
+}
+.event-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(245,158,11,0.15);
+}
+.event-thumb {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  background: #000;
+  overflow: hidden;
+}
+.event-thumb img { position: absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; }
+.event-thumb-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 50%);
+}
+.event-info { padding: 14px 16px; }
+.event-name { font-size: 15px; font-weight: 700; }
+.event-date { font-size: 12px; color: var(--text-dim); margin-top: 4px; }
+.event-stats { font-size: 11px; color: var(--text-dim); margin-top: 8px; }
+
+/* Race grid */
+.section-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+  padding: 24px 0 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+.race-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  margin-bottom: 8px;
+}
+.race-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.15s;
+  text-decoration: none;
+  display: block;
+  color: var(--text);
+}
+.race-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(245,158,11,0.15);
+}
+.thumbnail {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  background: #000;
+  overflow: hidden;
+}
+.thumbnail img { position: absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; }
+.play-btn {
+  position: absolute; top:50%; left:50%;
+  transform: translate(-50%,-50%);
+  width:48px; height:48px;
+  background: rgba(0,0,0,0.7);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  transition: background 0.15s;
+}
+.race-card:hover .play-btn { background: #ff0000; }
+.play-btn svg { width:20px; height:20px; fill:white; margin-left:3px; }
+.ts-badge {
+  position: absolute; bottom:8px; right:8px;
+  background: rgba(0,0,0,0.85);
+  color:#fff; font-size:11px; font-family:monospace;
+  padding: 2px 6px; border-radius:4px;
+}
+.race-info { padding: 12px 14px; }
+.race-name { font-size:13px; font-weight:600; }
+.race-meta { font-size:11px; color:var(--text-dim); margin-top:3px; }
+.riders { margin-top:10px; border-top:1px solid var(--border); padding-top:8px; }
+.riders-label {
+  font-size:10px; font-weight:700; text-transform:uppercase;
+  letter-spacing:0.08em; color:var(--text-dim); margin-bottom:6px;
+}
+.rider-row { display:flex; align-items:center; padding:2px 0; }
+.rider-place { font-size:10px; color:var(--text-dim); font-family:monospace; min-width:28px; }
+.rider-name { font-size:12px; color:var(--text); min-width:100px; }
+.rider-bar-wrap { display:flex; align-items:center; gap:6px; flex:1; margin-left:8px; }
+.rider-bar-bg { flex:1; height:4px; background:var(--border); border-radius:2px; overflow:hidden; }
+.rider-bar { height:100%; background:var(--accent); border-radius:2px; }
+.rider-count { font-size:10px; color:var(--text-dim); font-family:monospace; min-width:16px; text-align:right; }
+.watch-link { font-size:11px; color:var(--accent); margin-top:10px; }
+
+/* Search */
+.search-bar { display:flex; gap:12px; margin-bottom:24px; }
+.search-bar input {
+  flex: 1;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.15s;
+}
+.search-bar input:focus { border-color: var(--accent); }
+.search-bar input::placeholder { color: var(--text-dim); }
+
+.sort-bar { display:flex; gap:8px; margin-bottom:20px; flex-wrap:wrap; }
+.sort-btn {
+  padding: 6px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-dim);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.sort-btn:hover { color: var(--text); }
+.sort-btn.active { border-color: var(--accent); color: var(--accent); background: var(--surface2); }
+
+.rider-result {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+.rider-result-header {
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+}
+.rider-result-name { font-size: 16px; font-weight: 700; }
+.rider-result-stats { font-size: 12px; color: var(--text-dim); }
+
+.rider-race-row {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  gap: 16px;
+  text-decoration: none;
+  color: var(--text);
+  transition: background 0.15s;
+}
+.rider-race-row:last-child { border-bottom: none; }
+.rider-race-row:hover { background: var(--surface2); }
+.rr-race { flex: 1; font-size: 13px; }
+.rr-cat { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+.rr-event { font-size: 10px; color: var(--text-dim); margin-top: 1px; }
+.rr-mentions { font-size:12px; color:var(--accent); font-family:monospace; white-space:nowrap; }
+.rr-place { font-size:12px; color:var(--text-dim); white-space:nowrap; min-width:60px; text-align:right; }
+.rr-ts { font-size:11px; color:var(--text-dim); font-family:monospace; white-space:nowrap; }
+
+.no-results { color: var(--text-dim); font-size: 14px; padding: 24px 0; }
+.footer { margin-top:40px; padding-top:20px; border-top:1px solid var(--border); font-size:11px; color:var(--text-dim); }
+</style>
+</head>
+<body>
+
+<div class="header" id="site-header">
+  <div>
+    <h1>JB Velodrome</h1>
+    <div class="meta" id="header-meta">Jerry Baker Memorial Velodrome &nbsp;·&nbsp; Redmond, WA</div>
+  </div>
+</div>
+
+<div id="tabs-bar" class="tabs" style="display:none">
+  <a class="tab" href="/" style="text-decoration:none">← Events</a>
+  <div class="tab active" onclick="showTab('races', this)">Races</div>
+  <div class="tab" onclick="showTab('riders', this)">Rider Search</div>
+</div>
+
+<div class="content">
+
+  <!-- Index view -->
+  <div id="view-index">
+    <div class="tabs" style="position:static;padding:0;margin-bottom:0;border:none;background:none;">
+      <div class="tab active" onclick="showIndexTab('events', this)" style="padding-left:0">Events</div>
+      <div class="tab" onclick="showIndexTab('riders', this)">Rider Search</div>
+    </div>
+    <div id="index-tab-events" style="margin-top:8px">
+      <div class="event-grid" id="event-list"></div>
+    </div>
+    <div id="index-tab-riders" style="display:none;margin-top:16px">
+      <div class="search-bar">
+        <input type="text" id="global-rider-search" placeholder="Search all events by name..." oninput="renderGlobalSearch()" autofocus>
+      </div>
+      <div class="sort-bar">
+        <span style="font-size:11px;color:var(--text-dim);align-self:center;">Sort by:</span>
+        <button class="sort-btn active" onclick="setGlobalSort('mentions', this)">Most Mentions</button>
+        <button class="sort-btn" onclick="setGlobalSort('races', this)">Most Races</button>
+        <button class="sort-btn" onclick="setGlobalSort('name', this)">Name A–Z</button>
+      </div>
+      <div id="global-rider-results"></div>
+    </div>
+  </div>
+
+  <!-- Event detail view -->
+  <div id="view-event" style="display:none">
+    <div id="tab-races" class="tab-panel active"></div>
+    <div id="tab-riders" class="tab-panel">
+      <div class="search-bar">
+        <input type="text" id="rider-search" placeholder="Search by name..." oninput="renderSearch()" autofocus>
+      </div>
+      <div class="sort-bar">
+        <span style="font-size:11px;color:var(--text-dim);align-self:center;">Sort by:</span>
+        <button class="sort-btn active" onclick="setSort('mentions', this)">Most Mentions</button>
+        <button class="sort-btn" onclick="setSort('races', this)">Most Races</button>
+        <button class="sort-btn" onclick="setSort('name', this)">Name A–Z</button>
+      </div>
+      <div id="rider-results"></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+let data = null;
+let currentEvent = null;
+let currentSort = 'mentions';
+let globalSort = 'mentions';
+
+function tsToHMS(s) {
+  const h = Math.floor(s/3600);
+  const m = Math.floor((s%3600)/60);
+  const sec = s%60;
+  return h > 0
+    ? `${h}:${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}`
+    : `${m}:${String(sec).padStart(2,'0')}`;
+}
+
+function fmtDate(d) {
+  const [y, m, day] = d.split('-');
+  return new Date(y, m-1, day).toLocaleDateString('en-US', { month:'long', day:'numeric', year:'numeric' });
+}
+
+function showTab(name, el) {
+  document.querySelectorAll('#view-event .tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('#tabs-bar .tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  el.classList.add('active');
+  if (name === 'riders') renderSearch();
+}
+
+function showIndexTab(name, el) {
+  document.getElementById('index-tab-events').style.display = name === 'events' ? '' : 'none';
+  document.getElementById('index-tab-riders').style.display = name === 'riders' ? '' : 'none';
+  document.querySelectorAll('#view-index .tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  if (name === 'riders') renderGlobalSearch();
+}
+
+function setSort(sort, el) {
+  currentSort = sort;
+  document.querySelectorAll('#tab-riders .sort-btn').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  renderSearch();
+}
+
+function setGlobalSort(sort, el) {
+  globalSort = sort;
+  document.querySelectorAll('#index-tab-riders .sort-btn').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  renderGlobalSearch();
+}
+
+function renderEventIndex() {
+  const list = document.getElementById('event-list');
+  // Sort events newest first
+  const sorted = [...data.events].sort((a,b) => b.date.localeCompare(a.date));
+  list.innerHTML = sorted.map(event => {
+    const thumb = `https://i.ytimg.com/vi/${event.youtube_id}/hqdefault.jpg`;
+    const raceCount = event.races.length;
+    const riderCount = new Set(event.races.flatMap(r => r.riders.map(x => x.name))).size;
+    return `
+      <a class="event-card" href="?event=${event.id}">
+        <div class="event-thumb">
+          <img src="${thumb}" alt="">
+          <div class="event-thumb-overlay"></div>
+        </div>
+        <div class="event-info">
+          <div class="event-name">${event.name}</div>
+          <div class="event-date">${fmtDate(event.date)}</div>
+          <div class="event-stats">${raceCount} races &nbsp;·&nbsp; ${riderCount} riders</div>
+        </div>
+      </a>`;
+  }).join('');
+}
+
+function renderRaces() {
+  const event = currentEvent;
+  const thumb = `https://i.ytimg.com/vi/${event.youtube_id}/hqdefault.jpg`;
+  const ytBase = `https://www.youtube.com/watch?v=${event.youtube_id}`;
+
+  const groups = {};
+  for (const race of event.races) {
+    if (!groups[race.name]) groups[race.name] = [];
+    groups[race.name].push(race);
+  }
+
+  let html = '';
+  for (const [groupName, races] of Object.entries(groups)) {
+    html += `<div class="section-label">${groupName}</div><div class="race-grid">`;
+    for (const race of races) {
+      const maxMentions = Math.max(...race.riders.map(r => r.mentions), 1);
+      const sorted = [...race.riders].sort((a,b) => {
+        const pa = typeof a.place === 'number' ? a.place : 999;
+        const pb = typeof b.place === 'number' ? b.place : 999;
+        return pa - pb;
+      });
+      const riderRows = sorted.slice(0,4).map(r => {
+        const placeStr = (r.place === 'DNF' || r.place === 'DNS' || r.place === 'DNP') ? r.place : r.place ? '#'+r.place : '—';
+        const displayVal = r.time200m ? r.time200m + 's' : r.mentions;
+        const barWidth = r.time200m ? 0 : Math.round(r.mentions/maxMentions*100);
+        return `
+        <div class="rider-row">
+          <span class="rider-place">${placeStr}</span>
+          <span class="rider-name">${r.name}</span>
+          <div class="rider-bar-wrap">
+            <div class="rider-bar-bg"><div class="rider-bar" style="width:${barWidth}%"></div></div>
+            <span class="rider-count">${displayVal}</span>
+          </div>
+        </div>`;
+      }).join('');
+
+      const hasTime200m = race.riders.some(r => r.time200m);
+      const ridersLabel = hasTime200m ? 'Finish &amp; 200m Time' : 'Finish &amp; Mentions';
+      const ridersSection = race.riders.length > 0 ? `
+        <div class="riders">
+          <div class="riders-label">${ridersLabel}</div>
+          ${riderRows}
+        </div>` : '';
+
+      html += `
+        <a class="race-card" href="${ytBase}&t=${race.timestamp}s" target="_blank">
+          <div class="thumbnail">
+            <img src="${thumb}" alt="">
+            <div class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            <div class="ts-badge">${tsToHMS(race.timestamp)}</div>
+          </div>
+          <div class="race-info">
+            <div class="race-name">${race.name} — ${race.category}</div>
+            <div class="race-meta">${race.format || ''}</div>
+            ${ridersSection}
+            <div class="watch-link">▶ Watch on YouTube</div>
+          </div>
+        </a>`;
+    }
+    html += '</div>';
+  }
+
+  html += `<div class="footer">Race video courtesy of <a href="https://www.youtube.com/@JBVelodrome" target="_blank" style="color:var(--accent);">@JBVelodrome</a> on YouTube.</div>`;
+  document.getElementById('tab-races').innerHTML = html;
+}
+
+function buildRiderIndex(events) {
+  const index = {};
+  for (const event of events) {
+    const ytBase = `https://www.youtube.com/watch?v=${event.youtube_id}`;
+    for (const race of event.races) {
+      for (const rider of race.riders) {
+        const key = rider.name.toLowerCase();
+        if (!index[key]) index[key] = { name: rider.name, races: [], totalMentions: 0 };
+        index[key].races.push({ race, event, ytBase });
+        index[key].totalMentions += rider.mentions;
+      }
+    }
+  }
+  return index;
+}
+
+function renderSearch() {
+  if (!currentEvent) return;
+  const query = document.getElementById('rider-search').value.toLowerCase().trim();
+  const index = buildRiderIndex([currentEvent]);
+  let riders = Object.values(index);
+  if (query) riders = riders.filter(r => r.name.toLowerCase().includes(query));
+  if (currentSort === 'mentions') riders.sort((a,b) => b.totalMentions - a.totalMentions);
+  else if (currentSort === 'races') riders.sort((a,b) => b.races.length - a.races.length);
+  else riders.sort((a,b) => a.name.localeCompare(b.name));
+  document.getElementById('rider-results').innerHTML = buildRiderResultsHTML(riders);
+}
+
+function renderGlobalSearch() {
+  if (!data) return;
+  const query = document.getElementById('global-rider-search').value.toLowerCase().trim();
+  const index = buildRiderIndex(data.events);
+  let riders = Object.values(index);
+  if (query) riders = riders.filter(r => r.name.toLowerCase().includes(query));
+  if (globalSort === 'mentions') riders.sort((a,b) => b.totalMentions - a.totalMentions);
+  else if (globalSort === 'races') riders.sort((a,b) => b.races.length - a.races.length);
+  else riders.sort((a,b) => a.name.localeCompare(b.name));
+  document.getElementById('global-rider-results').innerHTML = buildRiderResultsHTML(riders, true);
+}
+
+function buildRiderResultsHTML(riders, showEvent=false) {
+  if (riders.length === 0) return '<div class="no-results">No riders found.</div>';
+  return riders.map(rider => {
+    const raceRows = rider.races.map(({race, event, ytBase}) => {
+      const raceRider = race.riders.find(r => r.name.toLowerCase() === rider.name.toLowerCase());
+      const place = raceRider.place;
+      const placeStr = (place === 'DNF' || place === 'DNS' || place === 'DNP') ? place : place ? '#'+place : '—';
+      const clipTs = raceRider.timestamp !== undefined ? raceRider.timestamp : race.timestamp;
+      const mentionStr = raceRider.time200m ? raceRider.time200m + 's' : raceRider.mentions + ' mentions';
+      return `
+        <a class="rider-race-row" href="${ytBase}&t=${clipTs}s" target="_blank">
+          <div>
+            <div class="rr-race">${race.name} — ${race.category}</div>
+            <div class="rr-cat">${fmtDate(event.date)}${showEvent ? ` &nbsp;·&nbsp; ${event.name}` : ''}</div>
+          </div>
+          <span class="rr-mentions">${mentionStr}</span>
+          <span class="rr-place">${placeStr}</span>
+          <span class="rr-ts">${tsToHMS(clipTs)}</span>
+        </a>`;
+    }).join('');
+    return `
+      <div class="rider-result">
+        <div class="rider-result-header">
+          <span class="rider-result-name">${rider.name}</span>
+          <span class="rider-result-stats">${rider.races.length} race${rider.races.length !== 1 ? 's' : ''} &nbsp;·&nbsp; ${rider.totalMentions} total mentions</span>
+        </div>
+        ${raceRows}
+      </div>`;
+  }).join('');
+}
+
+function route() {
+  const params = new URLSearchParams(window.location.search);
+  const eventId = params.get('event');
+
+  if (eventId) {
+    currentEvent = data.events.find(e => e.id === eventId);
+    if (!currentEvent) { window.location.href = '/'; return; }
+
+    document.title = `${currentEvent.name} — JB Velodrome`;
+    document.getElementById('header-meta').textContent = `${fmtDate(currentEvent.date)}  ·  Redmond, WA`;
+
+    document.getElementById('view-index').style.display = 'none';
+    document.getElementById('view-event').style.display = 'block';
+    document.getElementById('tabs-bar').style.display = 'flex';
+
+    renderRaces();
+  } else {
+    document.title = 'JB Velodrome';
+    document.getElementById('view-index').style.display = 'block';
+    document.getElementById('view-event').style.display = 'none';
+    document.getElementById('tabs-bar').style.display = 'none';
+    renderEventIndex();
+  }
+}
+
+fetch('data.json')
+  .then(r => r.json())
+  .then(d => {
+    data = d;
+    route();
+  });
+</script>
+
+</body>
+</html>
